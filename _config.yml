@@ -1,8 +1,8 @@
 title: "Brian's Blog"
 author: "Brian Stremel"
 description: "Blog personal"
-url: "https://brianstremel.github.io"
-baseurl: "/blog"
+url: "https://brianstremel.com"
+baseurl: ""
 
 markdown: kramdown
 highlighter: rouge
