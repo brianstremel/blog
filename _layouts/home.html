@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="home">
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li class="post-list-item">
+      <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date: "%b %-d, %Y" }}
+      </time>
+      <a class="post-title-link" href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
